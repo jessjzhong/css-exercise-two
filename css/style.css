@@ -1,6 +1,9 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #fffff;
+  color: #000000;
+  font-size: 16px;
+  line-height: 2em;
+  font-family: Arial, sans-serif;
 }
 
 nav {
@@ -21,6 +24,10 @@ nav {
 
 .medium-pic {
   width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 8px;
 }
 
 .left, .right {
@@ -44,6 +51,49 @@ li {
 
 article {
   padding-top: 100px;
+  padding-bottom: 20px;
+  font-size: 100%;
+}
+
+figcaption {
+  font-size: .9em;
+  font-style: italic;
+  text align: normal;
+}
+
+h1 {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 2.5em;
+  line-height: 4em;
+}
+
+h3 {
+  font-size: 110%;
+  line-height: 1.5em;
+  padding-bottom: 20px;
+  font-style: italic;
+  text-align: left;
+}
+
+.author {
+  line-height: 4em;
+}
+
+p {
+  font-size: 110%;
+  padding-bottom: 20px;
+  text-align: left;
+  line-height: 1.3em;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: orange;
 }
 
 .container {
